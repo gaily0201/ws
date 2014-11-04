@@ -1,0 +1,1 @@
+1.将插件copy到\UAPSTUDIO\Platform\plugins目录下

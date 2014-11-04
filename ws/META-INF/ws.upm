@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gbk"?>
+<module name="pub">
+	<public>
+		<component>
+			<interface>cn.gaily.service.IHelloService</interface>
+			<implementation>cn.gaily.service.impl.HelloServiceImpl</implementation>
+			<extension class="nc.uap.ws.deploy.OxbWSExtensionProcessor">
+				<wsdl>/cn/gaily/service/IHelloService.wsdl</wsdl>
+				<address>/cn.gaily.service.IHelloService</address>
+				</extension>
+			</component>
+	</public>
+</module>
